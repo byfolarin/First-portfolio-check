@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin: 0px 70px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+button{
+    font-size: 16px;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    line-height: 80%;
+    letter-spacing: -3px;
+    color: white;
+    padding: 30px 0;
+}
+
+p{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-section{
+    display: flex;
+    margin: 90px 0px;
+}
+
+.main-cta{
+    width: 70%;
+}
+
+.text{
+    width: 70%;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.scroll{
+    color: #4b4b4b;
+}
+
+.image-section-two{
+    max-width: 100%;
+
+}
+
+.image-section-two img{
+    width: 100%;
+}
+
+.third-section{
+    margin: 60px 0px ;
+}
+
+h2{
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 500;
+}
+
+.project-img{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 100px 0px ;
+    border-radius: 24px;
+    
+}
+
+.project-img img{
+    width: 100%;
+    border-radius: 24px;
+    transition: transform 0.3s ease;
+}
+
+.project-img:hover img{
+    border-radius: 24px;
+    transform: scale(1.2);
+}
+
+.link-project{
+    display: flex;
+    gap: 8px;
+    margin-top: 24px ;
+}
+
+.link-project img{
+    width: 12px;
+    height: 12px;
+}
+
+footer{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 40%;
+}
+
+.footer-second-section{
+    padding-right: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.first-section-footer, .second-section-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+@media screen and (max-width:  768px) {
+
+    .container{
+        margin: 0px 20px;
+    }
+
+
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        margin: 24px 0px;
+       
+    }
+
+    .logo{
+        margin-bottom: 30px;
+    }
+
+    .menu-icon {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+ .nav-links{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+ }
+
+    
+    .nav-links a{
+        color: rgb(255, 255, 255);
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #ffffff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .show{
+        visibility: visible;
+    }
+
+
+
+    h1{
+        font-size: 4.9rem;
+        font-weight: 500;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        line-height: 80%;
+        letter-spacing: -3px;
+        color: white;
+        padding: 30px 0px;
+        width: 80%;
+        
+    }
+    
+    p{
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .main-section{
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+       
+       
+    }
+    
+    .main-cta{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .text{
+        width: 100%;
+    }
+    
+    .email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    footer{
+        margin: 50px 0px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-second-section{
+       
+        padding-right: 100px;
+        display: flex;
+        gap: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width: 480px) {
+
+
+    
+
+    .container{
+        margin: 0px 20px;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px 0px;
+    }
+
+    .logo{
+        margin-bottom: 30px;
+    }
+
+    
+    .nav-links{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul li{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    h1{
+        font-size: 4.9rem;
+        font-weight: 500;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        line-height: 80%;
+        letter-spacing: -3px;
+        color: white;
+        padding: 30px 0px;
+        width: 80%;
+        
+    }
+    
+    p{
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        margin: 90px 0px;
+    }
+    
+    .main-cta{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .text{
+        width: 100%;
+    }
+    
+    .email{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    footer{
+        margin: 50px 0px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-second-section{
+       
+        padding-right: 100px;
+        display: flex;
+        gap: 40px;
+    }
+
+
+
+} */
